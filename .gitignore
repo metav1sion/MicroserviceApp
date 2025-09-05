@@ -1,5 +1,15 @@
 bin/
 obj/
 /packages/
-riderModule.iml
 /_ReSharper.Caches/
+/.idea/                 
+*.iml                   
+
+# Docker & env
+.env
+*.env
+
+# App settings - gizli bilgi içerenleri commit etme
+appsettings.Development.json
+appsettings.*.Local.json
+launchSettings.json
