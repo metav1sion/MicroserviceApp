@@ -13,4 +13,5 @@ public class Course : BaseEntity
     public DateTime CreatedDate { get; set; }
     public Guid CategoryId { get; set; }
     public Category Category { get; set; } = default!; //navigation property her kursun bir kategorisi olacak
+    public Feature Feature { get; set; } = default!; //navigation property her kursun bir özelliği olabilir.
 }
